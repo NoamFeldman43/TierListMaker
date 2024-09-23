@@ -1,0 +1,74 @@
+/* src/NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between elements: logo on the left, other elements on the right */
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  .logo {
+    margin-right: 50px; /* Space between logo and nav links */
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-links li a:hover {
+    color: #ddd;
+  }
+  
+  .search-bar {
+    margin-left: 20px; /* Adds space between the nav links and the search bar */
+  }
+  
+  .search-bar input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+  }
+  /* src/NavBar.css */
+
+/* Style for the navigation buttons */
+/* Align auth buttons to the right */
+.auth-buttons {
+    margin-left: auto; /* Pushes the auth buttons to the right */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the buttons */
+  }
+  
+  /* Style for the navigation buttons */
+  .nav-button {
+    padding: 5px 10px;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #005bb5;
+  }

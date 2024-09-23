@@ -1,0 +1,113 @@
+/* Body background */
+body {
+  background-color: #1c1c1e; /* Dark background for the whole page */
+  color: #f0f0f0; /* Light text color */
+  font-family: 'Arial', sans-serif; /* Improve font readability */
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #2c2c2e; /* Slightly lighter navbar background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for a floating effect */
+}
+
+.nav-links li a {
+  color: #fff; /* White text for the navbar */
+}
+
+.nav-links li a:hover {
+  color: #ffa726; /* Orange highlight on hover */
+}
+
+/* Tier list background and posts container */
+.posts-background {
+  background-color: #2c2c2e; /* Background for posts */
+  padding: 20px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* Strong shadow for depth */
+}
+
+/* Individual post */
+.post {
+  background-color: #333; /* Dark background for posts */
+  color: white; /* Text should be white on dark background */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* More shadow for posts */
+}
+
+.tier h3 {
+  background-color: #ff7043; /* Use a vibrant color for tier titles */
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Tier items */
+.tier-items li {
+  background-color: #444; /* Darker background for items */
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+.tier-items li:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  background-color: #ffa726; /* Highlight on hover */
+}
+
+/* Likes button styling */
+.likes button {
+  background-color: #0095f6; /* Blue button */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.likes button:hover {
+  background-color: #ff7043; /* Change to orange on hover */
+}
+
+/* Add hover effect for links */
+a:hover {
+  color: #ff7043; /* Vibrant orange hover effect for links */
+}
+
+
+/* S Tier */
+.tier.S-tier h3 {
+  background-color: #ff6b6b; /* Red for S tier */
+  color: white;
+}
+
+/* A Tier */
+.tier.A-tier h3 {
+  background-color: #ffa726; /* Orange for A tier */
+  color: white;
+}
+
+/* B Tier */
+.tier.B-tier h3 {
+  background-color: #ffca28; /* Yellow for B tier */
+  color: white;
+}
+
+/* C Tier */
+.tier.C-tier h3 {
+  background-color: #66bb6a; /* Green for C tier */
+  color: white;
+}
+
+/* D Tier */
+.tier.D-tier h3 {
+  background-color: #42a5f5; /* Blue for D tier */
+  color: white;
+}
